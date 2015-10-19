@@ -278,7 +278,7 @@ public final class FaceTrackerActivity extends AppCompatActivity {
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("image/jpeg");
                 shareIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(shot));
-                startActivity(Intent.createChooser(shareIntent, ""));
+                startActivity(Intent.createChooser(shareIntent, getString(R.string.send_picture_title)));
             }
         });
     }

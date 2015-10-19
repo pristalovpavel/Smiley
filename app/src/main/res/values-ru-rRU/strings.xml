@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_camera_rationale">Для работы приложения необходим доступ к камере</string>
+    <string name="no_camera_permission">Данное приложение не может работать без доступа к камере. Приложение будет закрыто.</string>
+    <string name="not_ready_message">Чего такой серьёзный? :)</string>
+    <string name="ready_message">А теперь подмигни!</string>
+    <string name="send_picture_title">Отправить себяшку</string>
+</resources>
